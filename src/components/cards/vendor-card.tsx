@@ -8,7 +8,7 @@ import Text from '@components/ui/text';
 type VendorCardProps = {
   shop?: any;
 };
-
+ 
 const VendorCard: React.FC<VendorCardProps> = ({ shop }) => {
   const { t } = useTranslation();
   const placeholderImage = `/assets/placeholder/products/product-grid.svg`;
