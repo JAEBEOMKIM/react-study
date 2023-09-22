@@ -593,6 +593,12 @@ export const siteSettings = {
         path: '/contact-us',
         label: 'menu-contact-us',
       },
+      // 메뉴추가
+      {
+        id: 8,
+        path: '/customMenu',
+        label: 'menu-custom-1'
+      }
     ],
     languageMenu: [
       {

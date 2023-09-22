@@ -68,5 +68,9 @@
   "menu-single-post": "Single Post",
   "menu-no-sidebar": "No Sidebar",
   "menu-left-sidebar": "Left Sidebar",
-  "menu-right-sidebar": "Right Sidebar"
+  "menu-right-sidebar": "Right Sidebar",
+
+  "menu-custom-1" : "내용정리",
+  "menu-custom-1-1" : "메뉴커스텀1-1"
+
 }
