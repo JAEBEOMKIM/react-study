@@ -16,6 +16,7 @@ export default function AccountNav({ options }: { options: Option[] }) {
   const { pathname } = useRouter();
   const newPathname = pathname.split('/').slice(2, 3);
   const mainPath = `/${newPathname[0]}`;
+  console.log("JBK::::mainpath:"+mainPath);
   return (
     <nav className="flex flex-col pb-2 md:pb-6 border border-skin-base rounded-md overflow-hidden">
       {options.map((item) => {
