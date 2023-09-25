@@ -25,6 +25,16 @@ import HeaderCustom from '@components/layout/header/header-custom';
 
 var Noop: React.FC = ({ children }) => <>{children}</>;
 
+// var Noop = function({children}:any){
+//   return (
+//     <>
+//       {children}
+//     </>
+//   )
+// }
+
+// Noop.displayName="Noop";
+
 const CustomApp = ({ Component, pageProps }: AppProps) => {
   const queryClientRef = useRef<any>();
   if (!queryClientRef.current) {
@@ -40,6 +50,8 @@ const CustomApp = ({ Component, pageProps }: AppProps) => {
  
   if(router.route.includes('customMenu')){
     Noop = ({children})=>{return(<><HeaderCustom>{children}</HeaderCustom></>)};
+    // Noop.displayName="Noop";
+    // Noop.assign(props=> {displayName:'NoopComponent'});
   }
 
   const Layout = (Component as any).Layout || Noop;
