@@ -598,6 +598,11 @@ export const siteSettings = {
         id: 8,
         path: '/customMenu',
         label: 'menu-custom-1'
+      },
+      {
+        id: 9,
+        path: '/customMenu2',
+        label: 'menu-custom-2'
       }
     ],
     languageMenu: [
